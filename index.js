@@ -45,7 +45,7 @@ decision = prompt('Deseas comprar algo mas? Si - No')
  }
 }
 
-alert (`El total de tu compra es ${totalCompra}`)
+alert (`El total de tu compra es de $${totalCompra}`)
 
 
 // DESCUENTO 
