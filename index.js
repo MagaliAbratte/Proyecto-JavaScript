@@ -149,13 +149,13 @@ const seleccionCliente = productosDisponibles.find (seleccion => seleccion.id ==
 if (seleccionCliente){
     totalCompra = sumaProductos (totalCompra, seleccionCliente.precio)
 } else {
-    productos = parseInt(prompt('Selecciona un producto disponible en nuestro catalogo (Indica el número correspondiente a la opción elegida, 1 - 2 - 3 - 4 ): 1.Mates - 2.Almohadones - 3.Canastos - 4.Plantas Medianas - 5.Plantas Grandes'))
+    productos = parseInt(prompt('Selecciona un producto disponible en nuestro catalogo (Indica el número correspondiente a la opción elegida, 1 - 2 - 3 - 4 ): 1.Mates - 2.Almohadones - 3.Canastos - 4.Plantas'))
      continue
 }
 
 decision = prompt('Deseas comprar algo mas? Si - No')
  if (decision === 'si' || decision === 'Si' || decision === 'SI'){
-    productos = parseInt(prompt('Que producto deseas comprar? (Indica el número correspondiente a la opción elegida, 1 - 2 - 3 - 4 - 5): 1.Mates - 2.Almohadones - 3.Canastos - 4.Plantas Medianas - 5.Plantas Grandes'))
+    productos = parseInt(prompt('Que producto deseas comprar? (Indica el número correspondiente a la opción elegida, 1 - 2 - 3 - 4 ): 1.Mates - 2.Almohadones - 3.Canastos - 4.Plantas'))
  } else {
     seguirComprando = false
  }
